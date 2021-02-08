@@ -8,7 +8,6 @@ public class MyBinaryTree<K extends Comparable<K>> {
     }
 
     private MyBinaryNode<K> addRecursively(MyBinaryNode<K> current, K key) {
-
         if (current == null) {
             return new MyBinaryNode<>(key);
         }
